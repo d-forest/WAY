@@ -113,3 +113,7 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+#sidebar ul li {
+    color: #c1c1c1;
+}

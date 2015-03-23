@@ -48,7 +48,7 @@ var app = {
                 alert(position.coords.latitude + ',' + position.coords.longitude);
             },
             function() {
-                alert('Error getting location');
+                alert('GPS location not activated');
             },
             {enableHighAccuracy: true}
         );

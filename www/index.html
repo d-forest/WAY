@@ -26,7 +26,9 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <link rel="stylesheet" type="text/css" href="css/leaflet.css"/>
-        <style type="text/css">
+        <link href="assets/ratchet/css/ratchet.css" rel="stylesheet">
+        <link href="assets/css/styles.css" rel="stylesheet">
+<!--        <style type="text/css">
             html, body, #map
             {
                 height: 100%;
@@ -35,13 +37,28 @@
             {
                 width: 100%;
             }
-        </style>
-        <title>Hello World</title>
+        </style>-->
     </head>
+
     <body>
-        <div id="map"></div>
+        <script id="home-tpl" type="text/template">
+            <header class="bar bar-nav" id="bar-nav">
+                <img class="toggle" src="images/icon-mobile.png" onclick="toggle_sidebar()" style="position: fixed; left: 10px; top: 10px" />
+                <div id="sidebar" style="position: fixed; display: inline-block; height: 100%; width: 200px; left: -200px; background-color: black; transition: all 0.5s ease-in-out;">
+                    <ul>
+                        <li>Test</li>
+                        <li>page 2</li>
+                    </ul>
+                </div>
+            </header>
+            <div id="content"></div>
+        </script>
+
         <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/leaflet.js"></script>
+        <script type="text/javascript" src="lib/leaflet.js"></script>
+        <script type="text/javascript" src="lib/handlebars.js"></script>
+        <script src="lib/jquery.js"></script>
+        <script type="text/javascript" src="js/HomeView.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
     </body>
 </html>
