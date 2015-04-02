@@ -113,3 +113,11 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+.bar {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+
+

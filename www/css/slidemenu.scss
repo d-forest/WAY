@@ -1,0 +1,80 @@
+
+$size: 80px;
+
+.menu-toggle{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  font-size: 2em;
+  width: $size;
+  /*height: $size;*/
+  text-align: center;
+  line-height: $size/2;
+  display: block;
+}
+
+.menu{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: all .3s ease;
+
+  perspective: 2000px;
+}
+
+.item{
+  background-color: #33334c;
+  border-top: 1px solid #182844;
+  border-bottom: 1px solid #253149;
+  color: white;
+
+  width: $size;
+  height: $size;
+  line-height: $size;
+  display: block;
+  text-align: center;
+
+  transition: transform .6s ease, background-color .1s .15s ease;
+  transform-origin: left center;
+  position: relative;
+
+  text-decoration: none;
+  font-size: 2em;
+
+  &:active{
+    background-color: #d64a73;
+    color: white;
+    transition: all .6s ease;
+  }
+
+}
+
+.menu--is-closed{
+
+  pointer-events: none;
+
+  .item{
+    transform: rotateY(180deg);
+    background-color: #272841;
+
+  }
+}
+
+$delay-unit: .1s;
+$n: 7;
+
+@for $i from 0 through $n {
+  .item-#{$i} {
+    transition-delay: $delay-unit * ( $n - $i );
+    z-index: $i;
+  }
+
+  .menu--is-closed .item-#{$i} {
+    transition-delay: $delay-unit * $i;
+  }
+}

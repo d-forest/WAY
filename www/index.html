@@ -28,37 +28,146 @@
         <link rel="stylesheet" type="text/css" href="css/leaflet.css"/>
         <link href="assets/ratchet/css/ratchet.css" rel="stylesheet">
         <link href="assets/css/styles.css" rel="stylesheet">
-<!--        <style type="text/css">
-            html, body, #map
-            {
-                height: 100%;
-            }
-            #map
-            {
-                width: 100%;
-            }
-        </style>-->
+        <link href="lib/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/slidemenu.css" rel="stylesheet">
+        <link href="assets/css/pageslider.css" rel="stylesheet">
     </head>
 
     <body>
+
+        <!--
+            HOME HANDLEBAR :
+                Contains Home slider menu
+        -->
         <script id="home-tpl" type="text/template">
             <header class="bar bar-nav" id="bar-nav">
-                <img class="toggle" src="images/icon-mobile.png" onclick="toggle_sidebar()" style="position: fixed; left: 10px; top: 10px" />
-                <div id="sidebar" style="position: fixed; display: inline-block; height: 100%; width: 200px; left: -200px; background-color: black; transition: all 0.5s ease-in-out;">
-                    <ul>
-                        <li>Test</li>
-                        <li>page 2</li>
+               <i class="fa fa-bars menu-toggle" onclick="$('.menu').toggleClass('menu--is-closed')"></i>
+               <ul class="menu menu--is-closed">
+                    <li><a class="item item-0 menu-toggle" onclick="$('.menu').toggleClass('menu--is-closed')"><i class="fa fa-times"></i></a></li>
+                    <li><a class="item item-1" href="#friend-search"><i class="fa fa-car"></i></a></li>
+                    <li><a class="item item-2"><i class="fa fa-heart"></i></a></li>
+                    <li><a class="item item-3"><i class="fa fa-cloud"></i></a></li>
+                    <li><a class="item item-4"><i class="fa fa-coffee"></i></a></li>
+                    <li><a class="item item-5"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a class="item item-6"><i class="fa fa-book"></i></a></li>
+                    <li><a class="item item-7"><i class="fa fa-book"></i></a></li>
+                </ul>
+            </header>
+            <div class="content"></div>
+        </script>
+
+        <!--
+            Friend-search HANDLEBAR :
+                Contains an input that looks for users friends
+        -->
+        <script id="friend-search-tpl" type="text/template">
+            <header class="bar bar-nav">
+                <a class="btn btn-link btn-nav pull-left" href="#">
+                <span class="icon icon-left-nav"></span>
+                </a>
+                <h1 class="title">Friends</h1>
+            </header>
+            <div class="content">
+                <div class="bar bar-standard">
+                    <input class='search-key' type="search"/>
+                </div>
+                <div class="content-list scroller"></div>
+            </div>
+        </script>
+
+        <!--
+           Friend list HANDLEBAR :
+                This one is placed in the class content-list div from the Friend-search HANDLEBAR
+       -->
+        <script id="friend-list-tpl" type="text/template">
+            <ul class="table-view">
+                {{#each this}}
+                <li class="table-view-cell media">
+                    <a href="#friend/{{ id }}">
+                        <img class="media-object pull-left" src="assets/pics/{{pic}}">
+                        <div class="media-body">
+                            {{firstName}} {{lastName}}
+                            <p>{{title}}</p>
+                        </div>
+                    </a>
+                </li>
+                {{/each}}
+            </ul>
+        </script>
+
+        <!--
+           Friend details HANDLEBAR :
+
+       -->
+        <script id="friend-tpl" type="text/template">
+            <header class="bar bar-nav">
+                <a class="btn btn-link btn-nav pull-left" href="#friend-search">
+                    <span class="icon icon-left-nav"></span>
+                </a>
+                <h1 class="title">{{ firstName }} {{ lastName }}</h1>
+            </header>
+            <div class="content">
+                <div class="card">
+                    <ul class="table-view">
+                        <li class="table-view-cell media">
+                            <img class="media-object pull-left" src="assets/pics/{{pic}}">
+                            <div class="media-body">
+                                <p>{{ title }}</p>
+                            </div>
+                        </li>
+                        <li class="table-view-cell media">
+                            <a href="tel:{{ officePhone }}" class="push-right">
+                                <span class="media-object pull-left icon icon-call"></span>
+                                <div class="media-body">
+                                    Call Office
+                                    <p>{{ officePhone }}</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="table-view-cell media">
+                            <a href="tel:{{ cellPhone }}" class="push-right">
+                                <span class="media-object pull-left icon icon-call"></span>
+                                <div class="media-body">
+                                    Call Cell
+                                    <p>{{ cellPhone }}</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="table-view-cell media">
+                            <a href="sms:{{ cellPhone }}" class="push-right">
+                                <span class="media-object pull-left icon icon-sms"></span>
+                                <div class="media-body">
+                                    SMS
+                                    <p>{{ cellPhone }}</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="table-view-cell media">
+                            <a href="mailto:{{ email }}" class="push-right">
+                                <span class="media-object pull-left icon icon-mail"></span>
+                                <div class="media-body">
+                                    Email
+                                    <p>{{ email }}</p>
+                                </div>
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
-            </header>
-            <div id="content"></div>
+            </div>
         </script>
 
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="lib/leaflet.js"></script>
         <script type="text/javascript" src="lib/handlebars.js"></script>
         <script src="lib/jquery.js"></script>
-        <script type="text/javascript" src="js/HomeView.js"></script>
+        <script src="lib/pageslider.js"></script>
+        <script src="lib/router.js"></script>
+        <script src="js/services/memory/FriendService.js"></script>
+        <script src="js/FriendSearchView.js"></script>
+        <script src="js/FriendListView.js"></script>
+        <script src="js/HomeView.js"></script>
+        <script src="js/FriendView.js"></script>
         <script type="text/javascript" src="js/app.js"></script>
     </body>
 </html>

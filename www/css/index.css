@@ -114,6 +114,10 @@ h1 {
     -webkit-animation:fade 3000ms infinite;
 }
 
-#sidebar ul li {
-    color: #c1c1c1;
+.bar {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
 }
+
+
+
