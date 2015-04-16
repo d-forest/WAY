@@ -111,9 +111,6 @@
                     <ul class="table-view">
                         <li class="table-view-cell media">
                             <img class="media-object pull-left" src="assets/pics/{{pic}}">
-                            <div class="media-body">
-                                <p>{{ title }}</p>
-                            </div>
                         </li>
                         <li class="table-view-cell media">
                             <a href="tel:{{ officePhone }}" class="push-right">
@@ -134,15 +131,6 @@
                             </a>
                         </li>
                         <li class="table-view-cell media">
-                            <a href="sms:{{ cellPhone }}" class="push-right">
-                                <span class="media-object pull-left icon icon-sms"></span>
-                                <div class="media-body">
-                                    SMS
-                                    <p>{{ cellPhone }}</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="table-view-cell media">
                             <a href="mailto:{{ email }}" class="push-right">
                                 <span class="media-object pull-left icon icon-mail"></span>
                                 <div class="media-body">
@@ -151,8 +139,35 @@
                                 </div>
                             </a>
                         </li>
-
+                        <li class="table-view-cell media">
+                            <a href="#compass/{{ id }}" class="push-right">
+                                <span class="media-object pull-left icon icon-mail"></span>
+                                <div class="media-body">
+                                    Locate
+                                    <p>{{ lat }}{{ lon }}</p>
+                                </div>
+                            </a>
+                        </li>
                     </ul>
+                </div>
+            </div>
+        </script>
+
+        <script id="compass-tpl" type="text/template">
+            <header class="bar bar-nav">
+                <a class="btn btn-link btn-nav pull-left" href="#">
+                    <span class="icon icon-left-nav"></span>
+                </a>
+                <h1 class="title">Location</h1>
+            </header>
+            <div class="content" id="compassContent">
+                <div class="centered_div">
+                    <img src="img/compass.svg" alt="" id="compass">
+                </div>
+                <div class="distance">
+                    <p>Distance :</p>
+
+                    <p class="valeur"><span>XXX</span> m</p>
                 </div>
             </div>
         </script>
@@ -161,11 +176,14 @@
         <script type="text/javascript" src="lib/leaflet.js"></script>
         <script type="text/javascript" src="lib/handlebars.js"></script>
         <script src="lib/jquery.js"></script>
+        <script src="js/geodesie.js"></script>
+        <script src="js/compass.js"></script>
         <script src="lib/pageslider.js"></script>
         <script src="lib/router.js"></script>
         <script src="js/services/memory/FriendService.js"></script>
         <script src="js/FriendSearchView.js"></script>
         <script src="js/FriendListView.js"></script>
+        <script src="js/CompassView.js"></script>
         <script src="js/HomeView.js"></script>
         <script src="js/FriendView.js"></script>
         <script type="text/javascript" src="js/app.js"></script>

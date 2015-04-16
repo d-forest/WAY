@@ -71,3 +71,13 @@ ul {
     left: 0px;
     right: 0px;
 }
+
+.centered_div {
+    margin: auto;
+    width: 220px;
+}
+
+#compass {
+    margin: auto;
+    width: 220px;
+}

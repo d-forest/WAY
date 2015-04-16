@@ -6,6 +6,7 @@
     FriendSearchView.prototype.template = Handlebars.compile($("#friend-search-tpl").html());
     FriendListView.prototype.template = Handlebars.compile($("#friend-list-tpl").html());
     FriendView.prototype.template =Handlebars.compile($("#friend-tpl").html());
+    CompassView.prototype.template = Handlebars.compile($("#compass-tpl").html());
 
     var service = new FriendService();
     var slider = new PageSlider($('body'));
@@ -30,33 +31,42 @@
             });
         });
 
+        router.addRoute('compass/:id', function(id) {
+            console.log('compass');
+            service.findById(parseInt(id)).done(function(friend) {
+                slider.slidePage(new CompassView(friend).render().$el);
+            });
+        });
+
         router.start();
     });
 
-    /* --------------------------------- Event Registration -------------------------------- */
-    document.addEventListener('deviceready', function () {
-        StatusBar.overlaysWebView( false );
-        StatusBar.backgroundColorByHexString('#ffffff');
-        StatusBar.styleDefault();
-        FastClick.attach(document.body);
-        if (navigator.notification) { // Override default HTML alert with native dialog
-            window.alert = function (message) {
-                navigator.notification.alert(
-                    message,    // message
-                    null,       // callback
-                    "Workshop", // title
-                    'OK'        // buttonName
-                );
-            };
-        }
-    }, false);
-
     /* ---------------------------------- Local Functions ---------------------------------- */
-    /*
-    function renderHomeView() {
-        $('body').html(new HomeView().render().$el);
-    }*/
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    function onDeviceReady() {
+        // more events to add there, for exemple backbutton to properly pause/kill the app
+
+        var actualPosition = new LatLon(50.609763,3.136248);
+
+        compass.stopLocation();
+        compass.stopOrientation();
+
+        compass.data.destination = new LatLon(50.606467,3.143350);
+
+        compass.activateLocation();
+        compass.activateOrientation();
+    }
 
 }());
 
 /* ---------------------------------- Others functions ---------------------------------- */
+    function rotate(angle) {
+        $("#compass").rotate(angle);
+    }
+
+    function updateDistance(distance) {
+        $("#compassContent .distance .valeur span").text(distance);
+    }
+
+
