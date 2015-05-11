@@ -62,6 +62,11 @@ ul {
     background-repeat: no-repeat;
 }
 
+.icon-monolog {
+    background: transparent url(images/ic_action_monolog.png);
+    background-repeat: no-repeat;
+}
+
 .scroller {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
@@ -70,14 +75,4 @@ ul {
     bottom: 0px;
     left: 0px;
     right: 0px;
-}
-
-.centered_div {
-    margin: auto;
-    width: 220px;
-}
-
-#compass {
-    margin: auto;
-    width: 220px;
 }

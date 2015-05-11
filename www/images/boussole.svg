@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="355px" height="355px"
+	 viewBox="-166.5 -166.5 355 355" enable-background="new -166.5 -166.5 355 355" xml:space="preserve">
+<g id="iOS7-active" sketch:type="MSPage">
+	
+		<path id="circle_compass" sketch:type="MSShapeGroup" fill="#FFFFFF" stroke="#030102" stroke-width="4" stroke-miterlimit="10" d="
+		M11,186.5c96.932,0,175.5-78.568,175.5-175.5S107.932-164.5,11-164.5c-96.933,0-175.5,78.568-175.5,175.5S-85.932,186.5,11,186.5
+		L11,186.5z"/>
+</g>
+<polyline fill="#FFFFFF" stroke="#0A0305" stroke-width="8" stroke-miterlimit="10" points="53.01,20.68 -29.17,20.68 
+	10.984,-105.327 53.01,20.68 "/>
+<polygon fill="#FF1B2A" points="10.967,-66.265 -11.981,21.157 34.53,20.796 "/>
+<path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M44.345,53.582
+	c-17.921,17.937-46.957,17.937-64.858,0c-17.911-17.918-17.903-46.963,0-64.865c17.911-17.912,46.938-17.912,64.858,0
+	C62.263,6.619,62.298,35.664,44.345,53.582z"/>
+<g id="Calque_2">
+</g>
+<path fill="#070705" d="M27.919,10.991c0,9.363-7.582,16.944-16.927,16.944c-9.354,0-16.927-7.581-16.927-16.944
+	c0-9.344,7.572-16.926,16.927-16.926C20.337-5.935,27.919,1.646,27.919,10.991z"/>
+<radialGradient id="SVGID_1_" cx="2.5916" cy="350.2783" r="168.4995" gradientTransform="matrix(1 0 0 -1 8.3999 361.2695)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#222220"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</radialGradient>
+<path fill="none" stroke="url(#SVGID_1_)" stroke-width="2" stroke-miterlimit="10" d="M178.491,11
+	c0,92.516-74.991,167.491-167.5,167.491s-167.5-74.976-167.5-167.491c0-92.51,74.991-167.508,167.5-167.508
+	S178.491-81.51,178.491,11z"/>
+</svg>

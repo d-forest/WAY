@@ -1,0 +1,61 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'ripple-emulator' ]
+2 info using npm@1.3.2
+3 info using node@v0.10.13
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose cache add [ 'ripple-emulator', null ]
+6 verbose cache add name=undefined spec="ripple-emulator" args=["ripple-emulator",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'ripple-emulator',
+7 verbose parsed url   path: 'ripple-emulator',
+7 verbose parsed url   href: 'ripple-emulator' }
+8 silly lockFile eb53d4ae-ripple-emulator ripple-emulator
+9 verbose lock ripple-emulator C:\Users\Dylan\AppData\Roaming\npm-cache\eb53d4ae-ripple-emulator.lock
+10 silly lockFile eb53d4ae-ripple-emulator ripple-emulator
+11 silly lockFile eb53d4ae-ripple-emulator ripple-emulator
+12 verbose addNamed [ 'ripple-emulator', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile c6e72574-ripple-emulator ripple-emulator@
+15 verbose lock ripple-emulator@ C:\Users\Dylan\AppData\Roaming\npm-cache\c6e72574-ripple-emulator.lock
+16 silly addNameRange { name: 'ripple-emulator', range: '*', hasData: false }
+17 verbose url raw ripple-emulator
+18 verbose url resolving [ 'https://registry.npmjs.org/', './ripple-emulator' ]
+19 verbose url resolved https://registry.npmjs.org/ripple-emulator
+20 info trying registry request attempt 1 at 14:19:49
+21 http GET https://registry.npmjs.org/ripple-emulator
+22 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+23 info trying registry request attempt 2 at 14:20:20
+24 http GET https://registry.npmjs.org/ripple-emulator
+25 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+26 info trying registry request attempt 3 at 14:21:41
+27 http GET https://registry.npmjs.org/ripple-emulator
+28 silly lockFile c6e72574-ripple-emulator ripple-emulator@
+29 silly lockFile c6e72574-ripple-emulator ripple-emulator@
+30 error Error: connect ETIMEDOUT
+30 error     at errnoException (net.js:901:11)
+30 error     at Object.afterConnect [as oncomplete] (net.js:892:19)
+31 error If you need help, you may report this log at:
+31 error     <http://github.com/isaacs/npm/issues>
+31 error or email it to:
+31 error     <npm-@googlegroups.com>
+32 error System Windows_NT 6.2.9200
+33 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "ripple-emulator"
+34 error cwd C:\Users\Dylan\Documents\cours\Master\PJI\WAY
+35 error node -v v0.10.13
+36 error npm -v 1.3.2
+37 error syscall connect
+38 error code ETIMEDOUT
+39 error errno ETIMEDOUT
+40 verbose exit [ 1, true ]

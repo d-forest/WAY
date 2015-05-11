@@ -31,8 +31,15 @@ var FriendService = function() {
         return deferred.promise();
     }
 
+    this.findAll = function() {
+        var deferred = $.Deferred();
+        var results = friends;
+        deferred.resolve(results);
+        return deferred.promise();
+    }
+
     var friends = [
-        {"id": 1, "firstName": "James", "lastName": "King", "cellPhone": "617-000-0001", "officePhone": "781-000-0001", "email": "jking@fakemail.com", "city": "Boston, MA", "pic": "James_King.jpg", "twitterId": "@fakejking", "blog": "http://coenraets.org", lat: "50.606467", lon: "3.143350"},
+        {"id": 1, "firstName": "James", "lastName": "King", "cellPhone": "617-000-0001", "officePhone": "781-000-0001", "email": "jking@fakemail.com", "city": "Boston, MA", "pic": "James_King.jpg", "twitterId": "@fakejking", "blog": "http://coenraets.org", lat: "50.609248", lon: "3.136213"},
         {"id": 2, "firstName": "Julie", "lastName": "Taylor", "cellPhone": "617-000-0002", "officePhone": "781-000-0002", "email": "jtaylor@fakemail.com", "city": "Boston, MA", "pic": "Julie_Taylor.jpg", "twitterId": "@fakejtaylor", "blog": "http://coenraets.org", lat: "50.606467", lon: "3.143350"},
         {"id": 3, "firstName": "Eugene", "lastName": "Lee", "cellPhone": "617-000-0003", "officePhone": "781-000-0003", "email": "elee@fakemail.com", "city": "Boston, MA", "pic": "Eugene_Lee.jpg", "twitterId": "@fakeelee", "blog": "http://coenraets.org", lat: "50.606467", lon: "3.143350"},
         {"id": 4, "firstName": "John", "lastName": "Williams", "cellPhone": "617-000-0004", "officePhone": "781-000-0004", "email": "jwilliams@fakemail.com", "city": "Boston, MA", "pic": "John_Williams.jpg", "twitterId": "@fakejwilliams", "blog": "http://coenraets.org", lat: "50.606467", lon: "3.143350"},

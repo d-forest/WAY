@@ -47,7 +47,7 @@ body {
 
 /* Portrait layout (default) */
 .app {
-    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+    background:url(../images/logo.png) no-repeat center top; /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
     left:50%;
     top:50%;
@@ -119,5 +119,25 @@ h1 {
     padding-right: 0px!important;
 }
 
+.centered_div {
+    margin: auto;
+    width: 220px;
+}
 
+#map { height: 300px;
+    width: 100%;}
+
+#compass {
+/*    position: absolute;
+    left: 0px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0.5;
+*/
+    left: auto;
+    right: auto;
+    width: 50%;
+}
 
