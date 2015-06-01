@@ -35,7 +35,7 @@ compass.onErrorOrientation = function onErrorOrientation(error) {
 	countErrorsOr++;
 	if (countErrorsOr == 3){
 		navigator.notification.alert('Orientation non disponible', function(){}, 'Erreur', 'Ok' );
-        console.log('code: '    + error.code    + '\n' +
+        console.error('code: '    + error.code    + '\n' +
         'message: ' + error.message + '\n');
 	}
 };

@@ -5,9 +5,9 @@ var FriendService = function () {
 
         window.localStorage.setItem("friends", JSON.stringify(
             [
-                {"id": 1, "firstName": "James", "lastName": "King", "cellPhone": "617-000-0001", "officePhone": "781-000-0001", "email": "jking@fakemail.com", "city": "Boston, MA", "pic": "James_King.jpg", "twitterId": "@fakejking", "blog": "http://coenraets.org", lat: "50.609248", lon: "3.136213"},
+                {"id": 1, "firstName": "James", "lastName": "King", "cellPhone": "617-000-0001", "officePhone": "781-000-0001", "email": "jking@fakemail.com", "city": "Boston, MA", "pic": "James_King.jpg", "twitterId": "@fakejking", "blog": "http://coenraets.org", lat: "", lon: ""},
                 {"id": 2, "firstName": "Julie", "lastName": "Taylor", "cellPhone": "617-000-0002", "officePhone": "781-000-0002", "email": "jtaylor@fakemail.com", "city": "Boston, MA", "pic": "Julie_Taylor.jpg", "twitterId": "@fakejtaylor", "blog": "http://coenraets.org", lat: "", lon: ""},
-                {"id": 3, "firstName": "Eugene", "lastName": "Lee", "cellPhone": "617-000-0003", "officePhone": "781-000-0003", "email": "elee@fakemail.com", "city": "Boston, MA", "pic": "Eugene_Lee.jpg", "twitterId": "@fakeelee", "blog": "http://coenraets.org", lat: "50.606467", lon: "3.143350"},
+                {"id": 3, "firstName": "Eugene", "lastName": "Lee", "cellPhone": "617-000-0003", "officePhone": "781-000-0003", "email": "elee@fakemail.com", "city": "Boston, MA", "pic": "Eugene_Lee.jpg", "twitterId": "@fakeelee", "blog": "http://coenraets.org", lat: "", lon: ""},
                 {"id": 4, "firstName": "John", "lastName": "Williams", "cellPhone": "617-000-0004", "officePhone": "781-000-0004", "email": "jwilliams@fakemail.com", "city": "Boston, MA", "pic": "John_Williams.jpg", "twitterId": "@fakejwilliams", "blog": "http://coenraets.org", lat: "", lon: ""},
                 {"id": 5, "firstName": "Ray", "lastName": "Moore", "cellPhone": "617-000-0005", "officePhone": "781-000-0005", "email": "rmoore@fakemail.com", "city": "Boston, MA", "pic": "Ray_Moore.jpg", "twitterId": "@fakermoore", "blog": "http://coenraets.org", lat: "", lon: ""},
                 {"id": 6, "firstName": "Paul", "lastName": "Jones", "cellPhone": "617-000-0006", "officePhone": "781-000-0006", "email": "pjones@fakemail.com", "city": "Boston, MA", "pic": "Paul_Jones.jpg", "twitterId": "@fakepjones", "blog": "http://coenraets.org", lat: "", lon: ""},
@@ -57,6 +57,22 @@ var FriendService = function () {
             });
         deferred.resolve(results);
         return deferred.promise();
+    }
+
+    this.setLocation = function(notification) {
+        var friends = JSON.parse(window.localStorage.getItem("friends"));
+
+        for (var i=0; i<friends.length; i++) {
+            if (friends[i].id == notification.idFriend) {
+                friends[i].lat = notification.lat;
+                friends[i].lon = notification.lon;
+                break;
+            }
+        }
+
+        window.localStorage.setItem("friends", JSON.stringify(friends));
+
+        return this.findById(notification.idFriend);
     }
 
 }

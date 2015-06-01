@@ -26,11 +26,19 @@ var viewSet = false;
 
 function onDeviceReady() {
 
+    Handlebars.registerHelper('ifCond', function(v1, v2, options) {
+        if(v1 === v2) {
+            return options.fn(this);
+        }
+        return options.inverse(this);
+    });
+
     HomeView.prototype.template = Handlebars.compile($("#home-tpl").html());
     FriendSearchView.prototype.template = Handlebars.compile($("#friend-search-tpl").html());
     FriendListView.prototype.template = Handlebars.compile($("#friend-list-tpl").html());
     FriendView.prototype.template =Handlebars.compile($("#friend-tpl").html());
     CompassView.prototype.template = Handlebars.compile($("#compass-tpl").html());
+    NotificationView.prototype.template = Handlebars.compile($("#notifications-tpl").html());
 
     var service = new Services();
     var slider = new PageSlider($('body'));
@@ -46,6 +54,12 @@ function onDeviceReady() {
             console.log('empty');
             stopServices();
             slider.slidePageFrom(new HomeView().render().$el,"left");
+        });
+
+        router.addRoute('notifications', function(id) {
+            console.log('notifications');
+            stopServices();
+            slider.slidePage(new NotificationView(service.notificationService).$el);
         });
 
         router.addRoute('friend-search', function(id) {
@@ -68,6 +82,13 @@ function onDeviceReady() {
             navigator.notification.alert('Position sent, your friend can now find you!', function(){}, 'Success', 'Ok' );
         })
 
+        router.addRoute('sendPosN/:id', function(id) {
+            console.log('send position + deleteN');
+            //TODO: Send self position (notification to the other user)
+            service.notificationService.deleteN(id);
+            navigator.notification.alert('Position sent, your friend can now find you!', function(){}, 'Success', 'Ok' );
+        });
+
         router.addRoute('request/:id', function(id) {
             console.log('request position');
             //TODO: Send position request (notification to the other user)
@@ -83,6 +104,27 @@ function onDeviceReady() {
                 slider.slidePage(compassView.render().$el);
                 initializeMap();
             });
+        });
+
+        router.addRoute('locate/:id', function(id) {
+            console.log('locate');
+            stopServices();
+            service.notificationService.findById(parseInt(id)).done(function(notification) {
+                service.friendService.setLocation(notification).done(function(friend) {
+                    service.notificationService.deleteN(notification.id);
+                    startServices();
+                    compassView.setFriend(friend);
+                    slider.slidePage(compassView.render().$el);
+                    initializeMap();
+                })
+            });
+        });
+
+        router.addRoute('dnotif/:id', function(id) {
+            console.log('dnotif');
+            stopServices();
+            service.notificationService.deleteN(parseInt(id));
+            slider.slidePage(new NotificationView(service.notificationService).$el);
         });
 
         router.start();
@@ -144,10 +186,10 @@ function setPositionMap(position) {
     var selfMarker = new L.Marker([position.lat, position.lon], {icon: selfIcon});
     var popupContent = "You are here";
     var popup = selfMarker.bindPopup( popupContent, {offset:new L.Point(0,-35)} );
-    //selfMarker.addTo(markers);
+    selfMarker.addTo(markers);
 
     var destMarker = new L.Marker([compass.data.destination.lat,compass.data.destination.lon], {icon: destIcon});
     popupContent = "Your friend is here";
     popup = destMarker.bindPopup( popupContent, {offset:new L.Point(0,-35)} );
-    //destMarker.addTo(markers);
+    destMarker.addTo(markers);
 }

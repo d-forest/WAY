@@ -4,11 +4,10 @@
 
 var Services = function () {
 
-    this.friendService = new FriendService();
-    this.notificationService = new NotificationService();
-
     this.initialize = function() {
+        this.friendService = new FriendService();
         this.friendService.initialize();
+        this.notificationService = new NotificationService();
         this.notificationService.initialize();
         var deferred = $.Deferred();
         deferred.resolve();

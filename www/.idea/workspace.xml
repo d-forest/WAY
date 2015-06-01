@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d44f69-bf50-4688-b509-a777968fc17e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/services/localstorage/FriendService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/services/localstorage/NotificationService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/services/Services.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/views/NotificationView.js" />
       <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\platforms\android\assets\www\img\compass.svg" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\platforms\android\assets\www\img\logo.png" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\platforms\android\assets\www\js\CompassView.js" afterPath="" />
@@ -66,74 +64,17 @@
       <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\platforms\android\assets\www\lib\router.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\utils\route.gpx" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\css\font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\js\map.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\js\services\localstorage\EmployeeService.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\leaflet-0.7.3.zip" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\css\font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\css\font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\fonts\FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\fonts\fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\fonts\fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\fonts\fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\fonts\fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\fonts\fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\less\animated.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\less\bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\less\core.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\less\fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\less\font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\less\icons.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\less\larger.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\less\list.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\less\mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\less\path.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\less\rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\less\stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\less\variables.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\scss\_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\scss\_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\scss\_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\scss\_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\scss\_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\scss\_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\scss\_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\scss\_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\scss\_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\scss\_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\scss\_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\scss\_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\font-awesome-4.3.0\scss\font-awesome.scss" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\img\compass.svg" afterPath="$PROJECT_DIR$/images/compass.svg" />
-      <change type="MOVED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\img\logo.png" afterPath="$PROJECT_DIR$/images/logo.png" />
-      <change type="MOVED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\js\CompassView.js" afterPath="$PROJECT_DIR$/js/views/CompassView.js" />
-      <change type="MOVED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\js\FriendListView.js" afterPath="$PROJECT_DIR$/js/views/FriendListView.js" />
-      <change type="MOVED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\js\FriendSearchView.js" afterPath="$PROJECT_DIR$/js/views/FriendSearchView.js" />
-      <change type="MOVED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\js\FriendView.js" afterPath="$PROJECT_DIR$/js/views/FriendView.js" />
-      <change type="MOVED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\js\HomeView.js" afterPath="$PROJECT_DIR$/js/views/HomeView.js" />
-      <change type="MOVED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\js\compass.js" afterPath="$PROJECT_DIR$/js/utils/compass.js" />
-      <change type="MOVED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\js\geodesie.js" afterPath="$PROJECT_DIR$/js/lib/geodesie.js" />
-      <change type="MOVED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\js\services\json\EmployeeService.js" afterPath="$PROJECT_DIR$/js/services/json/FriendService.js" />
-      <change type="MOVED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\handlebars.js" afterPath="$PROJECT_DIR$/js/lib/handlebars.js" />
-      <change type="MOVED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\jquery.js" afterPath="$PROJECT_DIR$/js/lib/jquery.js" />
-      <change type="MOVED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\leaflet-src.js" afterPath="$PROJECT_DIR$/js/lib/leaflet-src.js" />
-      <change type="MOVED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\leaflet.js" afterPath="$PROJECT_DIR$/js/lib/leaflet.js" />
-      <change type="MOVED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\pageslider.js" afterPath="$PROJECT_DIR$/js/lib/pageslider.js" />
-      <change type="MOVED" beforePath="C:\Users\Dylan\Documents\cours\Master\PJI\WAY\www\lib\router.js" afterPath="$PROJECT_DIR$/js/lib/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/images/marker-icon.png" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/images/marker-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/marker-icon.png" afterPath="$PROJECT_DIR$/images/marker-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/images/marker-shadow.png" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/images/marker-shadow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/marker-shadow.png" afterPath="$PROJECT_DIR$/images/marker-shadow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/js/services/memory/FriendService.js" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/js/services/memory/FriendService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services/memory/FriendService.js" afterPath="$PROJECT_DIR$/js/services/memory/FriendService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/js/services/localstorage/FriendService.js" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/js/services/localstorage/FriendService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services/localstorage/FriendService.js" afterPath="$PROJECT_DIR$/js/services/localstorage/FriendService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/js/services/localstorage/NotificationService.js" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/js/services/localstorage/NotificationService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services/localstorage/NotificationService.js" afterPath="$PROJECT_DIR$/js/services/localstorage/NotificationService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services/Services.js" afterPath="$PROJECT_DIR$/js/services/Services.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/js/app.js" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/css/index.css" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/js/utils/compass.js" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/js/utils/compass.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/assets/css/styles.css" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/assets/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/styles.css" afterPath="$PROJECT_DIR$/assets/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.iws" />
@@ -161,28 +102,70 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.423077" vertical-offset="238" max-vertical-offset="4097">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="3417" max-vertical-offset="4760">
+              <caret line="210" column="58" selection-start-line="210" selection-start-column="50" selection-end-line="210" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1218" max-vertical-offset="2703">
-              <caret line="141" column="5" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.50124687" vertical-offset="1278" max-vertical-offset="3417">
+              <caret line="87" column="52" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compass.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/utils/compass.js">
+      <file leaf-file-name="NotificationService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/services/localstorage/NotificationService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1360">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1139">
+              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotificationView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/views/NotificationView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FriendSearchView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/views/FriendSearchView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="680">
+              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FriendService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/services/localstorage/FriendService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="938" max-vertical-offset="1411">
+              <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Services.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/services/Services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -191,18 +174,8 @@
       <file leaf-file-name="HomeView.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/views/HomeView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NotificationService.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/services/localstorage/NotificationService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46575344" vertical-offset="0" max-vertical-offset="584">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="408">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -246,16 +219,17 @@
         <option value="$PROJECT_DIR$/js/map.js" />
         <option value="$PROJECT_DIR$/js/services/localstorage/Services.js" />
         <option value="$PROJECT_DIR$/js/views/CompassView.js" />
-        <option value="$PROJECT_DIR$/js/services/Services.js" />
-        <option value="$PROJECT_DIR$/js/services/localstorage/FriendService.js" />
-        <option value="$PROJECT_DIR$/js/services/localstorage/NotificationService.js" />
         <option value="$PROJECT_DIR$/assets/css/styles.css" />
         <option value="$PROJECT_DIR$/rapport.js" />
         <option value="$PROJECT_DIR$/rapport.html" />
         <option value="$PROJECT_DIR$/js/views/HomeView.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/js/utils/compass.js" />
+        <option value="$PROJECT_DIR$/js/services/Services.js" />
+        <option value="$PROJECT_DIR$/js/views/NotificationView.js" />
+        <option value="$PROJECT_DIR$/js/services/localstorage/FriendService.js" />
+        <option value="$PROJECT_DIR$/js/services/localstorage/NotificationService.js" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -331,6 +305,96 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="localstorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -362,14 +426,10 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -377,6 +437,10 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -447,7 +511,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4509804" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2990196" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24907063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -459,12 +523,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27124184" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -490,13 +554,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../way1.0/www/js/services/json/EmployeeService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="584">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/cordova-tutorial-master/solutions/directory-solutions/part08/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14554794" vertical-offset="136" max-vertical-offset="799">
@@ -609,13 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/views/FriendView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Walkable-App-master/client/www/app/views/HomeView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.5034246" vertical-offset="1184" max-vertical-offset="1768">
@@ -718,23 +768,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/views/FriendSearchView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/views/CompassView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services/websql/EmployeeService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23817864" vertical-offset="0" max-vertical-offset="2244">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services/memory/FriendService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.98248684" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services/json/FriendService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40753424" vertical-offset="0" max-vertical-offset="584">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33274958" vertical-offset="32195" max-vertical-offset="40001">
+          <caret line="1905" column="0" selection-start-line="1905" selection-start-column="0" selection-end-line="1905" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lib/geodesie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42465752" vertical-offset="1112" max-vertical-offset="6851">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lib/pageslider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -746,116 +825,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/views/FriendListView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/websql/EmployeeService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23817864" vertical-offset="0" max-vertical-offset="2244">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/memory/FriendService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.98248684" vertical-offset="0" max-vertical-offset="1037">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/pageslider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5954466" vertical-offset="0" max-vertical-offset="1054">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/localstorage/FriendService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/Services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/json/FriendService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40753424" vertical-offset="0" max-vertical-offset="584">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33274958" vertical-offset="32195" max-vertical-offset="40001">
-          <caret line="1905" column="0" selection-start-line="1905" selection-start-column="0" selection-end-line="1905" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/geodesie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42465752" vertical-offset="1112" max-vertical-offset="6851">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077" vertical-offset="238" max-vertical-offset="4097">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2703">
-          <caret line="141" column="5" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/utils/compass.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1360">
+        <state vertical-scroll-proportion="0.02910959" vertical-offset="578" max-vertical-offset="1360">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../IHM/Projet-IHM-master/scripts/calendar-gestionnary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7565674" vertical-offset="432" max-vertical-offset="2890">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../IHM/Projet-IHM-master/scripts/wall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2608" max-vertical-offset="4607">
+          <caret line="254" column="73" selection-start-line="254" selection-start-column="73" selection-end-line="254" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/views/FriendView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23287672" vertical-offset="0" max-vertical-offset="584">
+          <caret line="8" column="20" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/views/HomeView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services/Services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/views/FriendListView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49127182" vertical-offset="7" max-vertical-offset="459">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/views/FriendSearchView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="680">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services/localstorage/FriendService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="938" max-vertical-offset="1411">
+          <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/services/localstorage/NotificationService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46575344" vertical-offset="0" max-vertical-offset="584">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1139">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/views/NotificationView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="3417" max-vertical-offset="4760">
+          <caret line="210" column="58" selection-start-line="210" selection-start-column="50" selection-end-line="210" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50124687" vertical-offset="1278" max-vertical-offset="3417">
+          <caret line="87" column="52" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
           <folding />
         </state>
       </provider>
